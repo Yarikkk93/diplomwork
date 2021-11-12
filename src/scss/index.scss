@@ -1,0 +1,13 @@
+@import 'mixin';
+@import '_second';
+
+$red: red;
+
+h1{
+    color: $red;
+    display: flex;
+}
+
+ul{
+    @include clear-list;
+}
